@@ -6,7 +6,9 @@ require('../css/App.css');
 
 var App = React.createClass({
   render: function() {
-    return null;
+    return (
+      <div>App</div>
+    );
   },
 });
 

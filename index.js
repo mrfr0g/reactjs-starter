@@ -1,5 +1,6 @@
-var App = require('js/app');
+var React = require('react');
+var ReactDom = require('react-dom');
 
-module.exports = {
-  app: App
-};
+var App = require('./js/app');
+
+ReactDom.render(<App />, document.getElementById('react'));
